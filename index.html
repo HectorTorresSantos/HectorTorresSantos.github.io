@@ -6,39 +6,64 @@
     <title>Pagina Principal</title>
     <style>
         header {
-            background-color:#93E5AB;
-            color: white;
+            background-color:#4dc070;
+            color: rgb(0, 0, 0);
             text-align: center;
             padding: 20px;
+            width: auto;
         }
 
         footer {
-            background-color: #93E5AB;
-            color: white;
+            background-color: #4dc070;
+            color: rgb(0, 0, 0);
             text-align: center;
             padding: 10px;
-            width: 100%;
+            width: auto;
+        }
+        .menu {
+            background-color: #4dc070;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            list-style-type: none;
+            width: auto;
+        }
+        .menu li {
+            float: left;
+        }
+        .menu li a {
+            display: block;
+            color: aliceblue;
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Mi Página Web</h1>
+        <h1>Pagina de Inicio</h1>
     </header>
-
+    
     <nav>
-        <a href="index.html">Inicio</a>
-        <a href="Actividades.html">Actividades</a>
-        <a href="#">Contacto</a>
+        <ul class="menu">
+            <li><a href="Actividades.html">Actividades</a></li>
+            <li><a href="Acerca_de.html">Acerca de</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
     </nav>
 
     <main>
         <h2>Bienvenido a Mi Página Web</h2>
         <p>Este es el contenido principal de la página.</p>
     </main>
-
+    <p></p>
     <footer>
-        <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+        <p>
+            &copy; 2024 Mi Página Web. Todos los derechos reservados.
+            <a href="https://twitter.com/elonmusk">Twitter</a>
+            <a href="https://www.instagram.com/elonrmuskk/">Instagram</a>
+        </p>
     </footer>
 </body>
 </html>
